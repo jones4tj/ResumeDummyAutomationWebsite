@@ -47,6 +47,15 @@ public class StepDefinitions {
 	public void i_should_be_navigated_to_the_products_webpage() {
 	    assertEquals(ProductsPage.url, this.action.getCurrentUrl());
 	}
+	
+	@Then("the products should be sorted appropriately by the dropdown")
+	public void the_products_should_be_sorted_appropriately_by_the_dropdown( ) {
+		ProductsPage products_page = new ProductsPage(this.action);
+		assertTrue(products_page.is_sorted_a_to_z_after_sorting());
+		assertTrue(products_page.is_sorted_z_to_a_after_sorting());
+		assertTrue(products_page.is_sorted_lo_to_hi_after_sorting());
+		assertTrue(products_page.is_sorted_hi_to_lo_after_sorting());
+	}
 
 	@Then("I logout")
 	public void i_logout() {

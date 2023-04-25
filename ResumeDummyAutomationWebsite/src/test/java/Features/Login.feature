@@ -11,3 +11,8 @@ Feature: Login
     When I enter valid credentials
     Then I should be navigated to the products webpage
     And I logout
+
+  Scenario: Sort products
+    When I enter valid credentials
+    Then the products should be sorted appropriately by the dropdown
+    And I logout
