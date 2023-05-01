@@ -16,3 +16,9 @@ Feature: Login
     When I enter valid credentials
     Then the products should be sorted appropriately by the dropdown
     And I logout
+
+  Scenario: Shopping Cart Badge value should indicate number of products in cart
+    When I enter valid credentials
+    And I add a product to the cart
+    Then the shopping cart badge should indicate the number of products added
+    And I logout

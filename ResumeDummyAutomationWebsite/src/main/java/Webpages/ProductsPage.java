@@ -22,6 +22,15 @@ public class ProductsPage {
 		this.action = action;
 		this.select = this.action.findElement(By.className("product_sort_container")).select();
 	}
+
+	public void add_product_to_cart() {
+		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
+		inventory_items.get(0).findElement(By.className("btn_inventory")).click();
+	}
+
+	public int get_shopping_cart_badge_quantity() {
+		return Integer.parseInt(this.action.findElement(By.className("shopping_cart_badge")).getText());
+	}
 	
 	public boolean is_sorted_a_to_z_after_sorting() {
 		select.selectByValue("az");
@@ -31,7 +40,7 @@ public class ProductsPage {
 		String current_name = "";
 		for (WebElement inventory_item : inventory_items) {
 			current_name = inventory_item.findElement(By.className("inventory_item_name")).getText();
-			is_sorted = current_name.compareTo(previous_name) > 0;
+			is_sorted = current_name.compareTo(previous_name) >= 0;
 			if (!is_sorted) {
 				break;
 			}
@@ -52,16 +61,18 @@ public class ProductsPage {
 		});
 		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
 		boolean is_sorted = true;
-//		String previous_name = "";
-//		String current_name = "";
-//		for (WebElement inventory_item : inventory_items) {
-//			current_name = inventory_item.findElement(By.className("inventory_item_name")).getText();
-//			is_sorted = current_name.compareTo(previous_name) < 0;
-//			if (!is_sorted) {
-//				break;
-//			}
-//			previous_name = current_name;
-//		}
+		String previous_name = "";
+		String current_name = "";
+		for (WebElement inventory_item : inventory_items) {
+			current_name = inventory_item.findElement(By.className("inventory_item_name")).getText();
+			if (previous_name != "") {
+				is_sorted = current_name.compareTo(previous_name) <= 0;
+			}
+			if (!is_sorted) {
+				break;
+			}
+			previous_name = current_name;
+		}
 		return is_sorted;
 	}
 	

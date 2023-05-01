@@ -9,6 +9,7 @@ import Webpages.ProductsPage;
 import framework.UIAction;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -55,6 +56,18 @@ public class StepDefinitions {
 		assertTrue(products_page.is_sorted_z_to_a_after_sorting());
 		assertTrue(products_page.is_sorted_lo_to_hi_after_sorting());
 		assertTrue(products_page.is_sorted_hi_to_lo_after_sorting());
+	}
+
+	@And("I add a product to the cart")
+	public void i_add_a_product_to_the_cart() {
+		ProductsPage products_page = new ProductsPage(this.action);
+		products_page.add_product_to_cart();
+	}
+
+	@Then("the shopping cart badge should indicate the number of products added")
+	public void the_shopping_cart_badge_should_indicate_the_number_of_products_added() {
+		ProductsPage products_page = new ProductsPage(this.action);
+		assertEquals(1, products_page.get_shopping_cart_badge_quantity());
 	}
 
 	@Then("I logout")
