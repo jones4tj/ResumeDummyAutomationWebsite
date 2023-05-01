@@ -22,3 +22,10 @@ Feature: Login
     And I add a product to the cart
     Then the shopping cart badge should indicate the number of products added
     And I logout
+
+  Scenario: Checkout user information required fields
+    When I enter valid credentials
+    And I add a product to the cart
+    And I go to checkout
+    Then the required fields should act as such
+    And I logout

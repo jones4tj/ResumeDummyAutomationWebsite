@@ -31,6 +31,17 @@ public class ProductsPage {
 	public int get_shopping_cart_badge_quantity() {
 		return Integer.parseInt(this.action.findElement(By.className("shopping_cart_badge")).getText());
 	}
+
+	public void click_shopping_cart() {
+		Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
+		wait.until(new Function<WebDriver, WebElement>() {
+			public WebElement apply(WebDriver driver) {
+				WebElement element = driver.findElement(By.className("shopping_cart_link"));
+				element.click();
+				return element;
+			}
+		});
+	}
 	
 	public boolean is_sorted_a_to_z_after_sorting() {
 		select.selectByValue("az");
