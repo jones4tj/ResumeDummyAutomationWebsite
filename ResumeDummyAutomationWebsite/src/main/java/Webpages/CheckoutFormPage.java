@@ -1,17 +1,22 @@
 package Webpages;
 
-import com.google.common.base.Function;
 import framework.UIAction;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Wait;
 
 public class CheckoutFormPage {
     private UIAction action;
-
+    private By first_name;
+    private By last_name;
+    private By postal_code;
+    private By error;
+    private By continue_button;
     public CheckoutFormPage(UIAction action) {
         this.action = action;
+        this.first_name = new By.ById("first-name");
+        this.last_name = new By.ById("last-name");
+        this.postal_code = new By.ById("postal-code");
+        this.error = new By.ByXPath("//div//h3");
+        this.continue_button = new By.ById("continue");
     }
 
     public void check_required_fields() {
@@ -22,31 +27,24 @@ public class CheckoutFormPage {
     }
 
     private void check_first_name_field() {
-        this.action.findElement(By.id("continue")).click();
-        this.action.findElement(By.className("error-message-container")).isDisplayed();
-        this.action.findElement(By.id("first-name")).sendKeys("Paul");
+        this.click_continue();
+        this.action.findElement(this.error).isDisplayed();
+        this.action.findElement(this.first_name).sendKeys("Paul");
     }
 
     private void check_last_name_field() {
-        this.action.findElement(By.id("continue")).click();
-        this.action.findElement(By.className("error-message-container")).isDisplayed();
-        this.action.findElement(By.id("last-name")).sendKeys("Hayes");
+        this.click_continue();
+        this.action.findElement(this.error).isDisplayed();
+        this.action.findElement(this.last_name).sendKeys("Hayes");
     }
 
     private void check_postal_code_field() {
-        this.action.findElement(By.id("continue")).click();
-        this.action.findElement(By.className("error-message-container")).isDisplayed();
-        this.action.findElement(By.id("postal-code")).sendKeys("12345");
+        this.click_continue();
+        this.action.findElement(this.error).isDisplayed();
+        this.action.findElement(this.postal_code).sendKeys("12345");
     }
 
     private void click_continue() {
-        Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
-        wait.until(new Function<WebDriver, WebElement>() {
-            public WebElement apply(WebDriver driver) {
-                WebElement element = driver.findElement(By.id("continue"));
-                element.click();
-                return element;
-            }
-        });
+        this.action.wait_for_presence_of_element_and_click(this.continue_button, 500);
     }
 }

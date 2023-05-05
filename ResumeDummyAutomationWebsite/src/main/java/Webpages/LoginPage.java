@@ -2,11 +2,6 @@ package Webpages;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Wait;
-
-import com.google.common.base.Function;
 
 import framework.UIAction;
 
@@ -18,12 +13,13 @@ public class LoginPage {
 	private By username_locator;
 	private By password_locator;
 	private By locked_out_locator;
-	
+	private By login_button;
 	public LoginPage(UIAction action) {
 		this.action = action;
 		this.username_locator = new By.ById("user-name");
 		this.password_locator = new By.ById("password");
-		this.locked_out_locator = new By.ByClassName("error-message-container");
+		this.locked_out_locator = new By.ByXPath("//div//h3");
+		this.login_button = new By.ById("login-button");
 	}
 	
 	public void navigate_to_login_page() {
@@ -47,18 +43,10 @@ public class LoginPage {
 	}
 	
 	public void clickLoginButton() {
-		Wait<WebDriver> wait = this.action.fluent_wait(5, 500);
-		wait.until(new Function<WebDriver, WebElement>() {
-			public WebElement apply(WebDriver driver) {
-				WebElement element = driver.findElement(new By.ById("login-button"));
-				element.click();
-				return element;
-			}
-		});
+		this.action.wait_for_presence_of_element_and_click(this.login_button, 500);
 	}
 	
 	public boolean is_locked_out_error_displayed() {
-		this.action.wait_for(this.locked_out_locator, 1000);
 		return this.action.findElement(this.locked_out_locator).isDisplayed();
 	}
 }

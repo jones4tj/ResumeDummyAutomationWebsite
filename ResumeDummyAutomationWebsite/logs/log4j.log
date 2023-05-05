@@ -3,8 +3,8 @@
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: h3 using locator: By.xpath: //div//h3
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: h3
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
@@ -20,28 +20,11 @@
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.xpath: //div//select
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
@@ -51,138 +34,10 @@
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: span using locator: By.className: shopping_cart_badge
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.xpath: //div//select
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.xpath: //div//select
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: span using locator: By.xpath: //div//a//span
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Getting text: 1 from element: span
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
@@ -193,254 +48,19 @@
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.className: shopping_cart_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.className: shopping_cart_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.xpath: //div//select
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.xpath: //div[@class='inventory_item']
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.xpath: //div//select
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: h3 using locator: By.xpath: //div//h3
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: h3
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: h3 using locator: By.xpath: //div//h3
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: h3
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/checkout-step-one.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/checkout-step-one.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/checkout-step-two.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/checkout-step-two.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: locked_out_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/inventory.html
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: span using locator: By.className: shopping_cart_badge
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Getting text: 1 from element: span
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: button using locator: By.id: react-burger-menu-btn
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: button
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: a using locator: By.id: reset_sidebar_link
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: a
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Navigating to url: https://www.saucedemo.com/
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: user-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: standard_user to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: password
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: secret_sauce to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding elements using locator: By.className: inventory_item
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: select using locator: By.className: product_sort_container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: first-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Paul to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: last-name
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: Hayes to element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: continue
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Clicking element: input
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: div using locator: By.className: error-message-container
-[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: div
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: h3 using locator: By.xpath: //div//h3
+[INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Checking is displayed: true from element: h3
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Finding element: input using locator: By.id: postal-code
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Sending keys: 12345 to element: input
 [INFO ] _d{yyyy-MM-dd HH:mm:ss} [main] UIAction - Retrieving current url: https://www.saucedemo.com/checkout-step-two.html

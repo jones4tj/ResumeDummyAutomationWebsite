@@ -35,15 +35,9 @@ public class UIAction {
 		return this;
 	}
 	
-	public UIAction wait_for(long milliseconds) {
+	public UIAction wait_for_presence_of_element_and_click(By locator, long milliseconds) {
 		WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofMillis(milliseconds));
-		wait.until(ExpectedConditions.visibilityOf(element));
-		return this;
-	}
-	
-	public UIAction wait_for(By locator, long milliseconds) {
-		WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofMillis(milliseconds));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.presenceOfElementLocated(locator)).click();
 		return this;
 	}
 	

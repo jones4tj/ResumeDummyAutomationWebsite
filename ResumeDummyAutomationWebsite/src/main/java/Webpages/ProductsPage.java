@@ -17,40 +17,36 @@ public class ProductsPage {
 	
 	private UIAction action;
 	private Select select;
-	
+	private By products;
+	private By shopping_cart_link;
 	public ProductsPage(UIAction action) {
 		this.action = action;
-		this.select = this.action.findElement(By.className("product_sort_container")).select();
+		this.select = this.action.findElement(By.xpath("//div//select")).select();
+		this.products = new By.ByXPath("//div[@class='inventory_item']");
+		this.shopping_cart_link = new By.ByXPath("//a[@class='shopping_cart_link']");
 	}
 
 	public void add_product_to_cart() {
-		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
-		inventory_items.get(0).findElement(By.className("btn_inventory")).click();
+		List<WebElement> inventory_items = this.action.findElements(this.products);
+		inventory_items.get(0).findElement(By.xpath("//div[@class='pricebar']//button")).click();
 	}
 
 	public int get_shopping_cart_badge_quantity() {
-		return Integer.parseInt(this.action.findElement(By.className("shopping_cart_badge")).getText());
+		return Integer.parseInt(this.action.findElement(By.xpath("//div//a//span")).getText());
 	}
 
 	public void click_shopping_cart() {
-		Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
-		wait.until(new Function<WebDriver, WebElement>() {
-			public WebElement apply(WebDriver driver) {
-				WebElement element = driver.findElement(By.className("shopping_cart_link"));
-				element.click();
-				return element;
-			}
-		});
+		this.action.wait_for_presence_of_element_and_click(this.shopping_cart_link, 500);
 	}
 	
 	public boolean is_sorted_a_to_z_after_sorting() {
-		select.selectByValue("az");
-		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
+		this.select.selectByValue("az");
+		List<WebElement> inventory_items = this.action.findElements(this.products);
 		boolean is_sorted = true;
 		String previous_name = "";
 		String current_name = "";
 		for (WebElement inventory_item : inventory_items) {
-			current_name = inventory_item.findElement(By.className("inventory_item_name")).getText();
+			current_name = inventory_item.findElement(By.xpath("//div[@class='inventory_item_label']//a//div")).getText();
 			is_sorted = current_name.compareTo(previous_name) >= 0;
 			if (!is_sorted) {
 				break;
@@ -64,18 +60,18 @@ public class ProductsPage {
 		Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
 		wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
-				WebElement element = driver.findElement(By.className("product_sort_container"));
+				WebElement element = driver.findElement(By.xpath("//div//select"));
 				Select select = new Select(element);
 				select.selectByValue("za");
 				return element;
 			}
 		});
-		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
+		List<WebElement> inventory_items = this.action.findElements(this.products);
 		boolean is_sorted = true;
 		String previous_name = "";
 		String current_name = "";
 		for (WebElement inventory_item : inventory_items) {
-			current_name = inventory_item.findElement(By.className("inventory_item_name")).getText();
+			current_name = inventory_item.findElement(By.xpath("//div[@class='inventory_item_label']//a//div")).getText();
 			if (previous_name != "") {
 				is_sorted = current_name.compareTo(previous_name) <= 0;
 			}
@@ -91,18 +87,18 @@ public class ProductsPage {
 		Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
 		wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
-				WebElement element = driver.findElement(By.className("product_sort_container"));
+				WebElement element = driver.findElement(By.xpath("//div//select"));
 				Select select = new Select(element);
 				select.selectByValue("lohi");
 				return element;
 			}
 		});
-		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
+		List<WebElement> inventory_items = this.action.findElements(this.products);
 		boolean is_sorted = true;
 		double previous_price = 0;
 		double current_price = 0;
 		for (WebElement inventory_item : inventory_items) {
-			current_price = Double.parseDouble(inventory_item.findElement(By.className("inventory_item_price")).getText().replace("$", ""));
+			current_price = Double.parseDouble(inventory_item.findElement(By.xpath("//div[@class='inventory_item_price']")).getText().replace("$", ""));
 			is_sorted = Double.compare(current_price, previous_price) >= 0;
 			if (!is_sorted) {
 				break;
@@ -116,17 +112,17 @@ public class ProductsPage {
 		Wait<WebDriver> wait = this.action.fluent_wait(2, 500);
 		wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
-				WebElement element = driver.findElement(By.className("product_sort_container"));
+				WebElement element = driver.findElement(By.xpath("//div//select"));
 				Select select = new Select(element);
 				select.selectByValue("hilo");
 				return element;
 			}
-		});		List<WebElement> inventory_items = this.action.findElements(By.className("inventory_item"));
+		});		List<WebElement> inventory_items = this.action.findElements(this.products);
 		boolean is_sorted = true;
 		double previous_price = 0;
 		double current_price = 0;
 		for (WebElement inventory_item : inventory_items) {
-			current_price = Double.parseDouble(inventory_item.findElement(By.className("inventory_item_price")).getText().replace("$", ""));
+			current_price = Double.parseDouble(inventory_item.findElement(By.xpath("//div[@class='inventory_item_price']")).getText().replace("$", ""));
 			if (previous_price != 0) {
 				is_sorted = Double.compare(current_price, previous_price) <= 0;
 			}
